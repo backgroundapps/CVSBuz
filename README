@@ -1,0 +1,41 @@
+CVSbus - É um conjunto de scripts em Python que possibilita a automatização da criação de CAs da TopDown.
+
+------------
+Instalação:-
+------------
+Basicamente é so seguir os seguintes passos abaixo:
+1 - Copiar a pasta CVSbus para o C:\ ;
+2 - Incluir o diretório do python na variavel de ambiente 'PATH'; 
+
+--------------
+Configuração:-
+--------------
+Basicamente toda a configuração dos scripts ficam localizadas no arquivo PARAM.py dentro do main.
+
+Detalhamento dos parametros:
+
+disk : Informar o disco onde se encontra o CVS.
+serv : Informar o nome do servidor do CVS
+rep  : Informar o nome do repositório do Projeto.
+
+CVSROOT: Copiar o conteudo de login do seu CVS (Menu: admin / login / CVSROOT - combo). 
+
+Copiar o CVSROOT de cada repositório e incluir no arquivo de PARAM.py (OBS: os repositório não utilizados devem ficar comentados.)
+Ex: No seu PARAM.py o CVSROOT descomentado é o topsaude_v7, ou seja, eu efetuar qualquer ação, o repositório setado sera o utilizado
+
+------------
+Utilização:-
+------------
+1 - Inserir o conteudo do CA (todo o texto incluido na coluna 'objetos');
+2 - Executar o arquivo 'executar.bat'
+3 - Inserir após solicitado o número do CA e o nome do desenvolvedor.
+
+OBS: Este aplicativo não gera Dll e não atualiza scripts (Neste casos será necessário efetuar o processo manualmente).
+
+---------
+Contato:-
+---------
+Desevolvedor: Jonatas Emidio
+email: jonatasemidio@gmail.com
+
+Qualquer dúvida, entrem em contato!
