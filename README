@@ -1,36 +1,36 @@
-CVSbus - É um conjunto de scripts em Python que possibilita a automatização da criação de CAs da TopDown.
+CVSbus - Ã© um conjunto de scripts em Python que possibilita a automatizaï¿½ï¿½o da criaï¿½ï¿½o de CAs.
 
 ------------
-Instalação:-
+InstalaÃ§Ã£o:-
 ------------
-Basicamente é so seguir os seguintes passos abaixo:
+Basicamente ï¿½ so seguir os seguintes passos abaixo:
 1 - Copiar a pasta CVSbus para o C:\ ;
-2 - Incluir o diretório do python na variavel de ambiente 'PATH'; 
+2 - Incluir o diretï¿½rio do python na variavel de ambiente 'PATH'; 
 
 --------------
-Configuração:-
+Configuraï¿½ï¿½o:-
 --------------
-Basicamente toda a configuração dos scripts ficam localizadas no arquivo PARAM.py dentro do main.
+Basicamente toda a configuraï¿½ï¿½o dos scripts ficam localizadas no arquivo PARAM.py dentro do main.
 
 Detalhamento dos parametros:
 
 disk : Informar o disco onde se encontra o CVS.
 serv : Informar o nome do servidor do CVS
-rep  : Informar o nome do repositório do Projeto.
+rep  : Informar o nome do repositï¿½rio do Projeto.
 
 CVSROOT: Copiar o conteudo de login do seu CVS (Menu: admin / login / CVSROOT - combo). 
 
-Copiar o CVSROOT de cada repositório e incluir no arquivo de PARAM.py (OBS: os repositório não utilizados devem ficar comentados.)
-Ex: No seu PARAM.py o CVSROOT descomentado é o topsaude_v7, ou seja, eu efetuar qualquer ação, o repositório setado sera o utilizado
+Copiar o CVSROOT de cada repositï¿½rio e incluir no arquivo de PARAM.py (OBS: os repositï¿½rio nï¿½o utilizados devem ficar comentados.)
+Ex: No seu PARAM.py o CVSROOT descomentado ï¿½ o topsaude_v7, ou seja, eu efetuar qualquer aï¿½ï¿½o, o repositï¿½rio setado sera o utilizado
 
 ------------
-Utilização:-
+Utilizaï¿½ï¿½o:-
 ------------
 1 - Inserir o conteudo do CA (todo o texto incluido na coluna 'objetos');
 2 - Executar o arquivo 'executar.bat'
-3 - Inserir após solicitado o número do CA e o nome do desenvolvedor.
+3 - Inserir apï¿½s solicitado o nï¿½mero do CA e o nome do desenvolvedor.
 
-OBS: Este aplicativo não gera Dll e não atualiza scripts (Neste casos será necessário efetuar o processo manualmente).
+OBS: Este aplicativo nï¿½o gera Dll e nï¿½o atualiza scripts (Neste casos serï¿½ necessï¿½rio efetuar o processo manualmente).
 
 ---------
 Contato:-
@@ -38,4 +38,4 @@ Contato:-
 Desevolvedor: Jonatas Emidio
 email: jonatasemidio@gmail.com
 
-Qualquer dúvida, entrem em contato!
+Qualquer dï¿½vida, entrem em contato!
