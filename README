@@ -1,10 +1,10 @@
-CVSbus - é um conjunto de scripts em Python que possibilita a automatização da criação de CAs.
+CVSbuz - é um conjunto de scripts em Python que possibilita a automatização da criação de CAs.
 
 ------------
 Instalação:-
 ------------
 Basicamente é só seguir os seguintes passos abaixo:
-1 - Copiar a pasta CVSbus para o C:\ ;
+1 - Copiar a pasta CVSbuz para o C:\ ;
 2 - Incluir o diretório do python na variavel de ambiente 'PATH'; 
 
 --------------
