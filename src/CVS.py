@@ -11,11 +11,9 @@ def update(dir, obj, ver, full_path, action):
 	b = True
 	
 	mypath = get_dir() + dir
-		
-	
+
 	os.chdir(mypath)
 	
-	#cmd = 'cvs -r -d '+p.CVSROOT+' update -P -r '+ver+' -- '
 	cmd = 'cvs -r update -P -r '+ver+' -- '
 	
 	add = 'cvs add -- '
@@ -35,9 +33,6 @@ def update(dir, obj, ver, full_path, action):
 	os.system('exec.bat')
 	os.system('del exec.bat')
 		
-	#else:
-	#	print "adicionando ... "
-	#	os.system('cvs -r update -P -A')
 	return b	
 
 	
